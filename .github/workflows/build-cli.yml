@@ -12,15 +12,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - triple: 'x86_64-linux-gnu'
-            target: 'linux'
-
-          - triple: 'aarch64-linux-gnu'
-            target: 'linux'
-
-          - triple: 'x86_64-windows-msvc'
-            target: 'windows'
-
           - triple: 'x86_64-apple-darwin'
             target: 'macos'
 
